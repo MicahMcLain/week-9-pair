@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/images/popsicle-rainbow.jpg">
+    <link rel="stylesheet" href="/images/blue-pop.png">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="headerimage">
+                <img src="images/blue-pop.png" alt="blue-pop">
+                <h1>Fred's Frozen Pops</h1>
+            </ul>
+            <ul class="headerbuttons">
+                <li>HOME</li>
+                <li>STORE</li>
+                <li>CONTACT US</li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h2>Contact Us</h2>
+        <form action="action=http://127.0.0.1:5500/" method="post"></form>
+        <label for="">Name:</label>
+        <br />
+        <input type="text" name="Name">
+        <br />
+        <br />
+        <label for="HowDidYouHearOfUs">How did you hear of us?</label>
+        <br />
+        <select name="HowDidYouHearOfUs" id="options">
+            <option value="Google">Google</option>
+            <option value="Facebook">FaceBook</option>
+            <option value="Friends">Friends</option>
+            <option value="emails">Emails</option>
+        </select>
+        <br />
+        <br />
+        <label for="">What's your favorite frozen pop color?</label>
+        <br />
+        <input type="color">
+        <br />
+        <br />
+        <label for="comments">Please let us know any comments you have:</label>
+        <br />
+        <textarea name="comments" id="comments" cols="50" rows="10"></textarea>
+        <br />
+        <br />
+        <input class="submit" type="submit" value="Submit">
+    </section>
+    <footer>
+        <h3> © 2022. All rights reserved.</h3>
+    </footer>
+</body>
+
+</html>
